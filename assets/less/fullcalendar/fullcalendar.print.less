@@ -1,0 +1,154 @@
+@color_1: #000;
+
+.fc {
+	max-width: 100% !important;
+	tbody {
+		.fc-row {
+			height: auto !important;
+			min-height: 0 !important;
+			.fc-content-skeleton {
+				position: static;
+				padding-bottom: 0 !important;
+				tbody {
+					tr {
+						&:last-child {
+							td {
+								padding-bottom: 1em;
+							}
+						}
+					}
+				}
+				table {
+					height: 1em;
+				}
+			}
+		}
+	}
+	tr.fc-limited {
+		display: table-row !important;
+	}
+	td.fc-limited {
+		display: table-cell !important;
+	}
+	button {
+		display: none;
+	}
+}
+.fc-event {
+	background: #fff !important;
+	color: @color_1 !important;
+	page-break-inside: avoid;
+	.fc-resizer {
+		display: none;
+	}
+}
+th {
+	border-color: #ccc !important;
+	background: #fff !important;
+}
+td {
+	border-color: #ccc !important;
+	background: #fff !important;
+}
+hr {
+	border-color: #ccc !important;
+	background: #fff !important;
+}
+thead {
+	border-color: #ccc !important;
+	background: #fff !important;
+}
+tbody {
+	border-color: #ccc !important;
+	background: #fff !important;
+}
+.fc-row {
+	border-color: #ccc !important;
+	background: #fff !important;
+	border: 0 !important;
+	margin: 0 !important;
+}
+.fc-bg {
+	display: none;
+}
+.fc-bgevent-skeleton {
+	display: none;
+}
+.fc-highlight-skeleton {
+	display: none;
+}
+.fc-helper-skeleton {
+	display: none;
+}
+.fc-more-cell {
+	display: none !important;
+}
+.fc-more {
+	display: none !important;
+}
+.fc-popover {
+	display: none;
+}
+.fc-time-grid {
+	min-height: 0 !important;
+	hr {
+		display: none !important;
+	}
+	.fc-content-skeleton {
+		position: static;
+		table {
+			height: 4em;
+		}
+	}
+	.fc-event-container {
+		margin: 0 !important;
+	}
+	.fc-event {
+		position: static !important;
+		margin: 3px 2px !important;
+		.fc-time {
+			white-space: normal !important;
+			span {
+				display: none;
+			}
+			&:after {
+				content: attr(data-full);
+			}
+		}
+	}
+	.fc-event.fc-not-end {
+		border-bottom-width: 1px !important;
+		&:after {
+			content: "...";
+		}
+	}
+	.fc-event.fc-not-start {
+		border-top-width: 1px !important;
+		&:before {
+			content: "...";
+		}
+	}
+}
+.fc-agenda-view {
+	.fc-axis {
+		display: none;
+	}
+}
+.fc-slats {
+	display: none !important;
+}
+.fc-scroller {
+	overflow: visible !important;
+	height: auto !important;
+}
+.fc-day-grid-container {
+	overflow: visible !important;
+	height: auto !important;
+}
+.fc-time-grid-container {
+	overflow: visible !important;
+	height: auto !important;
+}
+.fc-button-group {
+	display: none;
+}

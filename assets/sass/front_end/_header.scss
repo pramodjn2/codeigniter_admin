@@ -1,0 +1,170 @@
+
+
+
+
+.top-header-wrap .navbar {
+    margin-bottom: 0;
+}
+.top-header-wrap .navbar-inverse .navbar-nav .active a, .top-header-wrap .navbar-inverse .navbar-nav .active a:focus, .top-header-wrap .navbar-inverse .navbar-nav .active a:hover {
+    color: #fff;
+    background-color: transparent;
+}
+.top-header-wrap .navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+}
+.headertop-right-block ul {
+    padding: 3px 0px;
+    margin:0px;
+}
+.headertop-right-block ul li {
+    display:block;
+    float:left;
+    padding: 3px 5px;
+}
+.headertop-right-block ul li a {
+    display: inline-block;
+    color:#fff;
+}
+.headertop-right-block ul li.login-reg-btn a {
+    padding: 10px 8px;
+    display: inline-block;
+}
+.headertop-right-block ul li.em-like a {
+    padding: 5px 20px;
+    display: inline-block;
+}
+.headertop-right-block ul li .glyphicon {
+    font-size: 25px;
+}
+
+.header-wrap {
+    padding: 0;
+    margin: 0;
+}
+.header-wrap .em-header-navbar {
+    margin: 0;
+}
+.header-wrap .navbar-brand {
+    height: auto;
+    padding: 0;
+}
+.em-header-navbar ul.navbar-nav {
+    padding: 30px 0px 15px;
+}
+.em-header-navbar ul li a {
+    padding: 15px 25px;
+    color: #212121;
+    font-size: 12pt;
+    text-transform: uppercase;
+}
+.em-header-navbar ul li a:focus, .em-header-navbar ul li a:hover {
+    text-decoration: none;
+    background-color: transparent;
+    color: #fff;
+}
+.header-wrap .em-header-navbar .navbar-toggle {
+    border: 1px solid #fff;
+}
+.header-wrap .em-header-navbar .navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #fff;
+}
+.slider-block .carousel-inner .item img {
+	width:100%;
+}
+.slider-block .carousel-inner .item .carousel-caption {
+    bottom: 30%;
+    text-align: left;
+}
+.slider-block .carousel-inner .item .carousel-caption h2 {
+    width: 100%;
+    max-width: 450px;
+    line-height: 59px;
+    font-size: 48px;
+}
+.slider-btn-box {
+    display: block;
+    padding: 30px 0 15px;
+}
+
+.animate {
+    -webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.navbar-bootsnipp .bootsnipp-search {
+	display: none;
+}
+.navbar-bootsnipp .bootsnipp-search .form-control {
+	background-color: rgb(235, 235, 235);
+	border-radius: 0px;
+	border-width: 0px;
+	font-size: 24px;
+	padding: 30px 0px;
+}
+.navbar-bootsnipp .bootsnipp-search .form-control {
+    background-color: #ebebeb;
+    border-radius: 0px;
+    border-width: 0px;
+    font-size: 16px;
+    padding: 25px 15px;
+}
+.navbar-bootsnipp .bootsnipp-search .form-control:focus {
+	border-color: transparent;
+	outline: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.navbar-bootsnipp .bootsnipp-search .input-group-btn > .btn {
+	padding: 14px 16px;
+	border-radius: 0px;
+}
+.navbar-bootsnipp .bootsnipp-search .input-group-btn > .btn.active,
+.navbar-bootsnipp .bootsnipp-search .input-group-btn > .btn:hover,
+.navbar-bootsnipp .bootsnipp-search .input-group-btn > .btn:focus {
+	padding: 14px 16px 14px 15px;
+}
+.navbar-bootsnipp .bootsnipp-search .input-group-btn > .btn-default {
+	background-color: rgb(245, 245, 245);
+}
+.nav-padding {
+	padding-top: 61px;
+}
+
+@media screen and (min-width: 768px) {
+	.navbar-bootsnipp .bootsnipp-search {
+		background-color: rgb(235, 235, 235);
+		display: block;
+		position: absolute;
+		top: 100%;
+		width: 100%;
+		-webkit-transform: rotateX(-90deg);
+		-moz-transform: rotateX(-90deg);
+		-o-transform: rotateX(-90deg);
+		-ms-transform: rotateX(-90deg);
+		transform: rotateX(-90deg);
+		-webkit-transform-origin: 0 0 0;
+		-moz-transform-origin: 0 0 0;
+		-o-transform-origin: 0 0 0;
+		-ms-transform-origin: 0 0 0;
+		transform-origin: 0 0 0;
+		visibility: hidden;
+	}
+	.navbar-bootsnipp .bootsnipp-search.open {
+		-webkit-transform: rotateX(0deg);
+		-moz-transform: rotateX(0deg);
+		-o-transform: rotateX(0deg);
+		-ms-transform: rotateX(0deg);
+		transform: rotateX(0deg);
+		visibility: visible;	
+	}
+	.navbar-bootsnipp .bootsnipp-search > .container {
+		padding: 0px;
+	}    
+}

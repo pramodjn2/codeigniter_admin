@@ -1,0 +1,141 @@
+
+@import "_variable.scss";
+@import "_mixin.scss";
+@import "_reset.scss";
+@import "_modal.scss";
+@import "_header.scss";
+@import "_explore.scss";
+@import "_buzz.scss";
+@import "_common.scss";
+
+
+
+/******** Footer Css *********/
+
+.footer-wrap {
+    padding: 20px 0;
+    margin: 0;
+    color: #8d8d8d;
+}
+
+.em-footer-navbar .navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    margin: 0;
+    min-height: auto;
+}
+.em-footer-navbar .footer-top-navbar {
+    padding: 15px 0 5px;
+}
+.em-footer-navbar .footer-bottom-navbar {
+    padding: 10px 0 15px;
+}
+.em-footer-navbar .navbar-default .navbar-nav>li a {
+    background-color: transparent;
+    border-color: transparent;
+    color: #fff;
+    padding: 0 15px;
+}
+.em-footer-navbar .navbar-default .navbar-nav>li a:hover {
+    color: #8d8d8d;
+}
+.em-footer-navbar .footer-bottom-navbar .navbar-default .navbar-nav>li>a {
+    color: #8d8d8d;
+}
+.em-footer-navbar .footer-bottom-navbar .navbar-default .navbar-nav>li a:hover {
+    color: #fff;
+}
+.footer-btn ul {
+    padding: 0;
+    margin: 0;    
+    list-style: none;
+}
+.footer-btn ul li {
+    padding: 10px 10px;
+    display: inline-block;
+}
+.footer-btn ul li a {
+    display: block;
+}
+.footer-bottom {
+    border-top: 1px solid #262626;
+}
+.footer-bottom a {
+    color: #8d8d8d;
+}
+.footer-bottom a:hover {
+    color: #fff;
+}
+.footer-socail i.fa {
+    font-size: 36px;
+}
+.copyright {
+    padding: 18px 0 10px;
+}
+
+
+
+
+
+
+
+@media (max-width: 767px) {	
+.em-footer-logo img {
+    margin: 0 auto;
+}
+.em-footer-navbar .footer-top-navbar {
+    padding: 0;
+    float: left;
+    width: 50%;
+}
+.em-footer-navbar .footer-bottom-navbar {
+    padding: 0;
+    float: left;
+    width: 50%;
+}
+.footer-wrap .navbar-nav li {
+    padding: 4px 0px;
+}
+.em-footer-btnbar .footer-btn {
+    float: none !important;
+    text-align: center;
+}
+.footer-socail i.fa {
+    font-size: 30px;
+}
+.em-footer-logo {
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #262626;
+}
+.em-footer-btnbar {
+    padding-bottom: 10px;
+}
+.footer-bottom {
+    padding-top: 10px;
+}
+
+}
+
+@media (max-width: 479px) {	
+.em-footer-copyright {
+	width:100% !important;
+    text-align: center;
+}
+.em-footer-socail {
+	width:100% !important;
+    text-align: center;
+}
+.footer-socail i.fa {
+    font-size: 22px;
+}
+}
+
+
+
+
+
+
+
+
+

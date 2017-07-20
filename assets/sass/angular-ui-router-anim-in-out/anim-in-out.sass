@@ -1,0 +1,153 @@
+.anim-in-out
+  &.anim-in-setup
+    &.anim-fade, .anim-fade
+      opacity: 0
+    &.anim-slide-left, .anim-slide-left
+      -webkit-transform: translateX(100%)
+      -ms-transform: translateX(100%)
+      transform: translateX(100%)
+    &.anim-slide-right, .anim-slide-right
+      -webkit-transform: translateX(-100%)
+      -ms-transform: translateX(-100%)
+      transform: translateX(-100%)
+    &.anim-slide-below, .anim-slide-below
+      -webkit-transform: translateY(20px)
+      -ms-transform: translateY(20px)
+      transform: translateY(20px)
+    &.anim-slide-below-fade, .anim-slide-below-fade
+      opacity: 0
+      -webkit-transform: translateY(20px)
+      -ms-transform: translateY(20px)
+      transform: translateY(20px)
+    &.anim-zoom-out, .anim-zoom-out
+      -webkit-transform: scale(0.95)
+      -ms-transform: scale(0.95)
+      transform: scale(0.95)
+    &.anim-zoom-in, .anim-zoom-in
+      -webkit-transform: scale(1.025)
+      -ms-transform: scale(1.025)
+      transform: scale(1.025)
+    &.anim-zoom-out-full, .anim-zoom-out-full
+      -webkit-transform: scale(0)
+      -ms-transform: scale(0)
+      transform: scale(0)
+    &.anim-zoom-in-full, .anim-zoom-in-full
+      -webkit-transform: scale(10)
+      -ms-transform: scale(10)
+      transform: scale(10)
+  &.anim-in
+    &.anim-fade, .anim-fade
+      opacity: 1
+      -webkit-transition: all 500ms
+      transition: all 500ms
+    &.anim-slide-left, .anim-slide-left, &.anim-slide-right, .anim-slide-right
+      -webkit-transform: translateX(0)
+      -ms-transform: translateX(0)
+      transform: translateX(0)
+      -webkit-transition: all 500ms
+      transition: all 500ms
+    &.anim-slide-below, .anim-slide-below
+      -webkit-transform: translateY(0)
+      -ms-transform: translateY(0)
+      transform: translateY(0)
+      -webkit-transition: all 500ms
+      transition: all 500ms
+    &.anim-slide-below-fade, .anim-slide-below-fade
+      opacity: 1
+      -webkit-transform: translateY(0)
+      -ms-transform: translateY(0)
+      transform: translateY(0)
+      -webkit-transition: all 500ms
+      transition: all 500ms
+    &.anim-zoom-out, .anim-zoom-out, &.anim-zoom-in, .anim-zoom-in, &.anim-zoom-out-full, .anim-zoom-out-full, &.anim-zoom-in-full, .anim-zoom-in-full
+      -webkit-transform: scale(1)
+      -ms-transform: scale(1)
+      transform: scale(1)
+      -webkit-transition: all 500ms
+      transition: all 500ms
+  &.anim-out-setup
+    &.anim-fade, .anim-fade
+      opacity: 1
+      -webkit-transition: all 500ms
+      transition: all 500ms
+    &.anim-slide-left, .anim-slide-left, &.anim-slide-right, .anim-slide-right
+      -webkit-transform: translateX(0)
+      -ms-transform: translateX(0)
+      transform: translateX(0)
+      -webkit-transition: all 500ms
+      transition: all 500ms
+    &.anim-slide-below, .anim-slide-below
+      -webkit-transform: translateY(0)
+      -ms-transform: translateY(0)
+      transform: translateY(0)
+      -webkit-transition: all 500ms
+      transition: all 500ms
+    &.anim-slide-below-fade, .anim-slide-below-fade
+      opacity: 1
+      -webkit-transform: translateY(0)
+      -ms-transform: translateY(0)
+      transform: translateY(0)
+      -webkit-transition: all 500ms
+      transition: all 500ms
+    &.anim-zoom-out, .anim-zoom-out, &.anim-zoom-in, .anim-zoom-in, &.anim-zoom-out-full, .anim-zoom-out-full, &.anim-zoom-in-full, .anim-zoom-in-full
+      -webkit-transform: scale(1)
+      -ms-transform: scale(1)
+      transform: scale(1)
+      -webkit-transition: all 500ms
+      transition: all 500ms
+  &.anim-out
+    &.anim-swap, .anim-swap
+      display: none
+    &.anim-fade, .anim-fade
+      opacity: 0
+      -webkit-transition: all 500ms
+      transition: all 500ms
+    &.anim-slide-left, .anim-slide-left
+      -webkit-transform: translateX(-100%)
+      -ms-transform: translateX(-100%)
+      transform: translateX(-100%)
+      -webkit-transition: all 500ms
+      transition: all 500ms
+    &.anim-slide-right, .anim-slide-right
+      -webkit-transform: translateX(100%)
+      -ms-transform: translateX(100%)
+      transform: translateX(100%)
+      -webkit-transition: all 500ms
+      transition: all 500ms
+    &.anim-slide-below, .anim-slide-below
+      -webkit-transform: translateY(20px)
+      -ms-transform: translateY(20px)
+      transform: translateY(20px)
+      -webkit-transition: all 500ms
+      transition: all 500ms
+    &.anim-slide-below-fade, .anim-slide-below-fade
+      opacity: 0
+      -webkit-transform: translateY(20px)
+      -ms-transform: translateY(20px)
+      transform: translateY(20px)
+      -webkit-transition: all 500ms
+      transition: all 500ms
+    &.anim-zoom-out, .anim-zoom-out
+      -webkit-transform: scale(0.95)
+      -ms-transform: scale(0.95)
+      transform: scale(0.95)
+      -webkit-transition: all 500ms
+      transition: all 500ms
+    &.anim-zoom-in, .anim-zoom-in
+      -webkit-transform: scale(1.025)
+      -ms-transform: scale(1.025)
+      transform: scale(1.025)
+      -webkit-transition: all 500ms
+      transition: all 500ms
+    &.anim-zoom-out-full, .anim-zoom-out-full
+      -webkit-transform: scale(0)
+      -ms-transform: scale(0)
+      transform: scale(0)
+      -webkit-transition: all 500ms
+      transition: all 500ms
+    &.anim-zoom-in-full, .anim-zoom-in-full
+      -webkit-transform: scale(10)
+      -ms-transform: scale(10)
+      transform: scale(10)
+      -webkit-transition: all 500ms
+      transition: all 500ms

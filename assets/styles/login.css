@@ -1,0 +1,118 @@
+/* LOGIN / REGISTER Css Start */
+.modal-dialog-width {
+  width: 400px !important; }
+
+.login-top-head h3 {
+  color: #fdc23f;
+  text-align: center;
+  font-weight: normal; }
+
+.login-top-head p {
+  text-align: center;
+  margin: 0px 20px; }
+
+.main-body {
+  clear: fixed;
+  margin-top: 20px; }
+
+.main-body .form-group .em-res-lab {
+  color: #a3a2a3;
+  font-weight: normal;
+  font-size: 14px; }
+
+.main-body .form-group .em-login-input {
+  border: none;
+  border-bottom: 2px solid #e2e2e2;
+  border-radius: 0px;
+  box-shadow: none; }
+
+.main-body .form-group:last-child .em-login-input {
+  border: none;
+  border-radius: 0px;
+  box-shadow: none; }
+
+.main-body .res-bott-border {
+  width: 100%;
+  border-bottom: 2px solid #e2e2e2;
+  margin-bottom: 10px !important; }
+
+.main-body .form-group .em-res-input {
+  border: none;
+  border-radius: 0px;
+  box-shadow: none; }
+
+.main-body .form-group:last-child .em-res-input {
+  border: none;
+  border-radius: 0px;
+  box-shadow: none; }
+
+.forgot-link {
+  color: #a3a2a3;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  text-decoration: none; }
+
+.forgot-link:hover {
+  color: #a3a2a3;
+  text-decoration: none; }
+
+.forgot-link:hover {
+  text-decoration: none; }
+
+.form-login .btn-login {
+  background: #fdc23f;
+  border: none;
+  padding: 2% 18%;
+  border-radius: 20px;
+  margin-bottom: 10px; }
+
+.form-login .btn-login:hover {
+  color: #fff;
+  background: #fdc23f; }
+
+.form-login .link-login a:first-child {
+  color: #a3a2a3;
+  fint-weight: 400;
+  text-decoration: none; }
+
+.form-login .link-login a:last-child {
+  font-size: 16px;
+  color: #000; }
+
+.emform-login-foot {
+  margin-top: 50px;
+  border-top: none !important; }
+
+.emform-login-foot a {
+  color: #a3a2a3;
+  text-decoration: none; }
+
+.login-social-icon {
+  width: 100%;
+  position: relative; }
+
+.login-social-icon .s-icon p {
+  color: #a3a2a3;
+  text-align: center;
+  line-height: 50px; }
+
+.login-social-icon .s-icon p a {
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 10px;
+  padding: 12px;
+  color: #fff;
+  position: relative;
+  line-height: 0px; }
+
+.login-social-icon .s-icon p a:first-child {
+  background: #4f69a3; }
+
+.login-social-icon .s-icon p a:last-child {
+  background: #dd4b39; }
+
+/* LOGIN / REGISTER Css End */

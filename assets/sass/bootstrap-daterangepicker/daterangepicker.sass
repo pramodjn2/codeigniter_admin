@@ -1,0 +1,262 @@
+/**
+ ** A stylesheet for use with Bootstrap 3.x
+ ** @author: Dan Grossman http://www.dangrossman.info/
+ ** @copyright: Copyright (c) 2012-2015 Dan Grossman. All rights reserved.
+ ** @license: Licensed under the MIT license. See http://www.opensource.org/licenses/mit-license.php
+ ** @website: https://www.improvely.com/
+
+/* Container Appearance
+
+.daterangepicker
+  position: absolute
+  background: #fff
+  top: 100px
+  left: 20px
+  padding: 4px
+  margin-top: 1px
+  border-radius: 4px
+  &.opensleft
+    &:before
+      position: absolute
+      top: -7px
+      right: 9px
+      display: inline-block
+      border-right: 7px solid transparent
+      border-bottom: 7px solid #ccc
+      border-left: 7px solid transparent
+      border-bottom-color: rgba(0, 0, 0, 0.2)
+      content: ''
+    &:after
+      position: absolute
+      top: -6px
+      right: 10px
+      display: inline-block
+      border-right: 6px solid transparent
+      border-bottom: 6px solid #fff
+      border-left: 6px solid transparent
+      content: ''
+  &.openscenter
+    &:before
+      position: absolute
+      top: -7px
+      left: 0
+      right: 0
+      width: 0
+      margin-left: auto
+      margin-right: auto
+      display: inline-block
+      border-right: 7px solid transparent
+      border-bottom: 7px solid #ccc
+      border-left: 7px solid transparent
+      border-bottom-color: rgba(0, 0, 0, 0.2)
+      content: ''
+    &:after
+      position: absolute
+      top: -6px
+      left: 0
+      right: 0
+      width: 0
+      margin-left: auto
+      margin-right: auto
+      display: inline-block
+      border-right: 6px solid transparent
+      border-bottom: 6px solid #fff
+      border-left: 6px solid transparent
+      content: ''
+  &.opensright
+    &:before
+      position: absolute
+      top: -7px
+      left: 9px
+      display: inline-block
+      border-right: 7px solid transparent
+      border-bottom: 7px solid #ccc
+      border-left: 7px solid transparent
+      border-bottom-color: rgba(0, 0, 0, 0.2)
+      content: ''
+    &:after
+      position: absolute
+      top: -6px
+      left: 10px
+      display: inline-block
+      border-right: 6px solid transparent
+      border-bottom: 6px solid #fff
+      border-left: 6px solid transparent
+      content: ''
+  &.dropup
+    margin-top: -5px
+    &:before
+      top: initial
+      bottom: -7px
+      border-bottom: initial
+      border-top: 7px solid #ccc
+    &:after
+      top: initial
+      bottom: -6px
+      border-bottom: initial
+      border-top: 6px solid #fff
+  &.dropdown-menu
+    max-width: none
+    z-index: 3000
+  .ranges, .calendar
+    float: left
+  &.single
+    .ranges, .calendar
+      float: none
+  .ranges
+    margin: 4px
+    text-align: left
+  .calendar
+    display: none
+    max-width: 270px
+  &.show-calendar .calendar
+    display: block
+  .calendar
+    &.single .calendar-table
+      border: none
+    th, td
+      white-space: nowrap
+      text-align: center
+      min-width: 32px
+  .calendar-table
+    border: 1px solid #ddd
+    padding: 4px
+    border-radius: 4px
+    background: #fff
+  .calendar
+    &.left .calendar-table
+      border-right: none
+      border-top-right-radius: 0
+      border-bottom-right-radius: 0
+    &.right .calendar-table
+      border-left: none
+      border-top-left-radius: 0
+      border-bottom-left-radius: 0
+    &.left
+      margin: 4px 0 4px 4px
+    &.right
+      margin: 4px 4px 4px 0
+    &.left .calendar-table
+      padding-right: 12px
+  table
+    width: 100%
+    margin: 0
+  td, th
+    text-align: center
+    width: 20px
+    height: 20px
+    border-radius: 4px
+    white-space: nowrap
+    cursor: pointer
+  td
+    &.off
+      color: #999
+      background: #fff
+      &.in-range, &.start-date, &.end-date
+        color: #999
+        background: #fff
+    &.disabled
+      color: #999
+  option.disabled
+    color: #999
+  td.available:hover, th.available:hover
+    background: #eee
+  td
+    &.in-range
+      background: #ebf4f8
+      border-radius: 0
+    &.start-date
+      border-radius: 4px 0 0 4px
+    &.end-date
+      border-radius: 0 4px 4px 0
+    &.start-date.end-date
+      border-radius: 4px
+    &.active
+      background-color: #357ebd
+      border-color: #3071a9
+      color: #fff
+      &:hover
+        background-color: #357ebd
+        border-color: #3071a9
+        color: #fff
+    &.week
+      font-size: 80%
+      color: #ccc
+  th.week
+    font-size: 80%
+    color: #ccc
+  select
+    &.monthselect, &.yearselect
+      font-size: 12px
+      padding: 1px
+      height: auto
+      margin: 0
+      cursor: default
+    &.monthselect
+      margin-right: 2%
+      width: 56%
+    &.yearselect
+      width: 40%
+    &.hourselect, &.minuteselect, &.secondselect, &.ampmselect
+      width: 50px
+      margin-bottom: 0
+  th.month
+    width: auto
+  .input-mini
+    border: 1px solid #ccc
+    border-radius: 4px
+    color: #555
+    display: block
+    height: 30px
+    line-height: 30px
+    vertical-align: middle
+    margin: 0 0 5px 0
+    padding: 0 6px 0 28px
+    width: 100%
+    &.active
+      border: 1px solid #357ebd
+  .daterangepicker_input i
+    position: absolute
+    left: 8px
+    top: 8px
+  .left .daterangepicker_input
+    padding-right: 12px
+  .daterangepicker_input
+    position: relative
+  .calendar-time
+    text-align: center
+    margin: 5px auto
+    line-height: 30px
+    position: relative
+    padding-left: 28px
+    select.disabled
+      color: #ccc
+      cursor: not-allowed
+  .ranges
+    font-size: 11px
+    ul
+      list-style: none
+      margin: 0
+      padding: 0
+      width: 160px
+    li
+      font-size: 13px
+      background: #f5f5f5
+      border: 1px solid #f5f5f5
+      color: #08c
+      padding: 3px 12px
+      margin-bottom: 8px
+      border-radius: 5px
+      cursor: pointer
+      &.active, &:hover
+        background: #08c
+        border: 1px solid #08c
+        color: #fff
+
+/* Calendars
+
+/* Text Input Above Each Calendar
+
+/* Time Picker
+
+/* Predefined Ranges

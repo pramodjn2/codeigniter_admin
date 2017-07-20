@@ -1,0 +1,86 @@
+.fc
+  max-width: 100% !important
+
+.fc-event
+  background: #fff !important
+  color: #000 !important
+  page-break-inside: avoid
+  .fc-resizer
+    display: none
+
+th, td, hr, thead, tbody, .fc-row
+  border-color: #ccc !important
+  background: #fff !important
+
+.fc-bg, .fc-bgevent-skeleton, .fc-highlight-skeleton, .fc-helper-skeleton
+  display: none
+
+.fc tbody .fc-row
+  height: auto !important
+  min-height: 0 !important
+  .fc-content-skeleton
+    position: static
+    padding-bottom: 0 !important
+    tbody tr:last-child td
+      padding-bottom: 1em
+    table
+      height: 1em
+
+.fc-more-cell, .fc-more
+  display: none !important
+
+.fc
+  tr.fc-limited
+    display: table-row !important
+  td.fc-limited
+    display: table-cell !important
+
+.fc-popover
+  display: none
+
+.fc-time-grid
+  min-height: 0 !important
+
+.fc-agenda-view .fc-axis
+  display: none
+
+.fc-slats
+  display: none !important
+
+.fc-time-grid
+  hr
+    display: none !important
+  .fc-content-skeleton
+    position: static
+    table
+      height: 4em
+  .fc-event-container
+    margin: 0 !important
+  .fc-event
+    position: static !important
+    margin: 3px 2px !important
+    &.fc-not-end
+      border-bottom-width: 1px !important
+      &:after
+        content: "..."
+    &.fc-not-start
+      border-top-width: 1px !important
+      &:before
+        content: "..."
+    .fc-time
+      white-space: normal !important
+      span
+        display: none
+      &:after
+        content: attr(data-full)
+
+.fc-scroller, .fc-day-grid-container, .fc-time-grid-container
+  overflow: visible !important
+  height: auto !important
+
+.fc-row
+  border: 0 !important
+  margin: 0 !important
+
+.fc-button-group, .fc button
+  display: none

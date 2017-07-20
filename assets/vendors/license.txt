@@ -1,0 +1,80 @@
+
+------------------------------------------ Yep Golabi Admin v1.0.0 ---------------------------------------
+- jQuery 1.11.2 - Dual licensed under the MIT or GPL licenses - https://jquery.org/
+- jQuery UI 1.11.4 - https://github.com/jquery/jquery-ui/blob/master/LICENSE.txt - https://github.com/jquery/jquery-ui - Twitter Bootstrap 3.3.4 - MIT License - https://github.com/twbs/bootstrap
+- izer0x Bootstrap RTL 3.2.0 - MIT License - https://github.com/zeroxme/bootstrap-3-arabic
+- font awesome 4.3.0 - MIT License - http://fontawesome.io
+- stidges jQuery Searchable v1.1.0 - MIT license - https://github.com/stidges/jquery-searchable
+- jquery fullscreen 1.1.5 - https://github.com/kayahr/jquery-fullscreen-plugin
+- DataTables 1.10.7 - MIT license - https://datatables.net/download/index
+- jsTree v3.0.4 - MIT license - https://github.com/vakata/jstree
+- jsTree Bootstrap Theme v1.0 - MIT license - https://github.com/orangehill/jstree-bootstrap-theme
+- Nestable jQuery Plugin v1.0 - BSD & MIT license - https://github.com/dbushell/Nestable
+- Bootstrap Dual List 3.0.2 - Apache License  v2.0- https://github.com/istvan-ujjmeszaros/bootstrap-duallistbox
+- Dropzone v4.2.0 - MIT license - https://github.com/enyo/dropzone
+- Summernote v0.8.1 - MIT license - https://github.com/summernote/summernote
+- Bootstrap Markdown v2.9.0 - Apache License v2.0 - https://github.com/toopay/bootstrap-markdown
+- CKEditor v4.4.7 - GPL, LGPL and MPL Open Source licenses - https://github.com/ckeditor/ckeditor-dev
+- TinyMCE v4.1.10 - GNU license - http://www.tinymce.com/
+- Google Map API -  - http://maps.googleapis.com/maps/api/js
+- jVectorMap 2.0.2 - GNU License - https://github.com/bjornd/jvectormap/
+- fullcalendar 2.3.1 - License: http://fullcalendar.io/ - https://github.com/arshaw/fullcalendar
+- Momentjs 2.9.0 - MIT license - http://momentjs.com
+- Bootstrap Image Gallery 3.1.1 - MIT license - https://github.com/blueimp/Bootstrap-Image-Gallery
+- blueimp jQuery-File-Upload 9.10.1 - MIT license - https://github.com/blueimp/jQuery-File-Upload
+- Vitalets x-editable 1.5.1 - MIT license - http://vitalets.github.io/x-editable/
+- typeahead.js 0.9.3 - MIT License - https://github.com/twitter/typeahead.js
+- Select2 v3.5.2 - MIT License - https://github.com/select2/select2
+- Bootstrap Datepicker v1.4.0 - Apache License v2.0- https://github.com/eternicode/bootstrap-datepicker
+- jQuery Mockjax v2.0.1 - Dual licensed under the MIT or GPL licenses - https://github.com/jakerella/jquery-mockjax
+- Jasny Bootstrap v3.1.3 - Apache License v2.0 - https://github.com/jasny/bootstrap/
+- jQuery Knob v1.2.11 - MIT License - https://github.com/aterrien/jQuery-Knob
+- Bootstrap tagsinput v0.5.0 - MIT License - https://github.com/timschlechter/bootstrap-tagsinput/
+- Bootstrap3 wysihtml5 v0.3.0 - MIT License - https://github.com/bootstrap-wysiwyg/bootstrap3-wysiwyg
+- Bootstrap Colorpicker 2.2 - Apache License v2.0 - http://mjolnic.com/bootstrap-colorpicker/
+- Awesome bootstrap checkbox v0.3.4 - MIT License - https://github.com/flatlogic/awesome-bootstrap-checkbox/releases
+- JQuery Sparklines v2.1.2 - New BSD License - https://github.com/gwatts/jquery.sparkline
+- Flot Chart v0.8.3 - MIT license - http://www.flotcharts.org/
+- morrisjs v0.5.1 - BSD-2-Clause License - https://github.com/morrisjs/morris.js  realated to raphaeljs
+- raphaeljs v2.1.0 - MIT license - http://raphaeljs.com/
+- jcrop v2.0 - MIT License - https://github.com/tapmodo/Jcrop/
+- jquery steps v1.1 - MIT License - https://github.com/rstaib/jquery-steps
+	** change .wizard to .wizardstep in css & js
+- fuelux wizard v3.9.0 - BSD-3 license - https://github.com/ExactTarget/fuelux
+	** Remove other css fuelux and just save wizard css
+- ladda button v0.9.8 - MIT License - https://github.com/hakimel/Ladda
+- Bootstrap Iconpicker v1.7.0 - MIT License - https://github.com/victor-valencia/bootstrap-iconpicker
+- Bootbox.js v4.4.0 - MIT License - https://github.com/makeusabrew/bootbox
+- AnimateCSS v3.3 - MIT License - https://github.com/daneden/animate.css
+- jquery ui bootstrap v1.0.0 alpha - MIT License - https://github.com/jquery-ui-bootstrap/jquery-ui-bootstrap
+- easy pie chart v2.1.6 - MIT License - https://github.com/rendro/easy-pie-chart
+- bootstrap daterangepicker v2.0.8 - MIT License - https://github.com/dangrossman/bootstrap-daterangepicker
+- bootstrap timepicker v0.5.1 - MIT License - https://github.com/jdewit/bootstrap-timepicker
+- jquery validation v1.14.0 - MIT Licesnes - https://github.com/jzaefferer/jquery-validation
+
+------------------------------------------ Yep Golabi Admin v1.2.0 ---------------------------------------
+- Grunt v0.4.5 - MIT License - http://gruntjs.com/ or (https://github.com/gruntjs/grunt)
+
+------------------------------------------ Yep Golabi Admin v1.3.0 ---------------------------------------
+- Select2 v3.5.4 - MIT License - https://github.com/select2/select2
+
+-------------------------------------------Yep Golabi Admin 1.4.0 ----------------------------------------
+- Ripple.js v1.2.1 - MIT License - https://github.com/jakiestfu/Ripple.js
+
+
+--------------------------------------------Yep Golabi Admin 1.5.0 ---------------------------------------
+- nprogress v0.2.0 - MIT License - https://github.com/rstacruz/nprogress/
+- jquery.require v1.0.1 - MIT License - https://github.com/masalygin/jquery.require
+- Angularjs v1.4.8 - MIT License - https://github.com/angular/angular.js
+- ocLazyLoad v1.0.9 - MIT License - https://github.com/ocombe/ocLazyLoad
+- sweetalert v1.1.3 - MIT License - https://github.com/t4t5/sweetalert
+
+---------------------------------------------Yep Golabi Admin 1.6 ----------------------------------------
+- underscore v1.8.3 - MIT License - https://github.com/jashkenas/underscore
+- Summernote v0.8.1 - MIT license - https://github.com/summernote/summernote
+- fancybox-plus v1.3.7 - MIT License - https://github.com/igorlino/fancybox-plus
+
+---------------------------------------------- Yep Golabi Admin 1.8 ---------------------------------------
+- sweetalert2 v4.2.5 - MIT License - https://github.com/limonte/sweetalert2
+- socket.io v1.4.5 - MIT License - http://socket.io/
+- font awesome 4.7.0 - MIT License - http://fontawesome.io

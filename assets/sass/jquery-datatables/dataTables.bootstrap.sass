@@ -1,0 +1,246 @@
+div
+  &.dataTables_length
+    label
+      font-weight: normal
+      text-align: left
+      white-space: nowrap
+    select
+      width: 75px
+      display: inline-block
+  &.dataTables_filter
+    text-align: right
+    label
+      font-weight: normal
+      white-space: nowrap
+      text-align: left
+    input
+      margin-left: 0.5em
+      display: inline-block
+      width: auto
+  &.dataTables_info
+    padding-top: 8px
+    white-space: nowrap
+  &.dataTables_paginate
+    margin: 0
+    white-space: nowrap
+    text-align: right
+    ul.pagination
+      margin: 2px 0
+      white-space: nowrap
+
+@media screen and (max-width: 767px)
+  div
+    &.dataTables_wrapper > div.row > div, &.dataTables_length, &.dataTables_filter, &.dataTables_info, &.dataTables_paginate
+      text-align: center
+    &.DTTT
+      margin-bottom: 0.5em
+
+table.dataTable
+  td, th
+    -webkit-box-sizing: content-box
+    -moz-box-sizing: content-box
+    box-sizing: content-box
+  clear: both
+  margin-top: 6px !important
+  margin-bottom: 6px !important
+  max-width: none !important
+  thead
+    .sorting, .sorting_asc, .sorting_desc, .sorting_asc_disabled, .sorting_desc_disabled
+      cursor: pointer
+      position: relative
+    .sorting:after, .sorting_asc:after, .sorting_desc:after
+      position: absolute
+      top: 8px
+      right: 8px
+      display: block
+      font-family: 'Glyphicons Halflings'
+      opacity: 0.5
+    .sorting:after
+      opacity: 0.2
+      content: "\e150"
+    .sorting_asc:after
+      content: "\e155"
+    .sorting_desc:after
+      content: "\e156"
+
+div.dataTables_scrollBody table.dataTable thead
+  .sorting:after, .sorting_asc:after, .sorting_desc:after
+    display: none
+
+table.dataTable
+  thead
+    .sorting_asc_disabled:after, .sorting_desc_disabled:after
+      color: #eee
+    > tr > th
+      padding-right: 30px
+  th:active
+    outline: none
+  &.table-condensed thead
+    > tr > th
+      padding-right: 20px
+    .sorting:after, .sorting_asc:after, .sorting_desc:after
+      top: 6px
+      right: 6px
+
+div
+  &.dataTables_scrollHead table
+    margin-bottom: 0 !important
+    border-bottom-left-radius: 0
+    border-bottom-right-radius: 0
+    thead tr:last-child
+      th:first-child, td:first-child
+        border-bottom-left-radius: 0 !important
+        border-bottom-right-radius: 0 !important
+  &.dataTables_scrollBody
+    table
+      border-top: none
+      margin-top: 0 !important
+      margin-bottom: 0 !important
+    tbody tr:first-child
+      th, td
+        border-top: none
+  &.dataTables_scrollFoot table
+    margin-top: 0 !important
+    border-top: none
+
+table.table-bordered
+  &.dataTable
+    border-collapse: separate !important
+  thead
+    th, td
+      border-left-width: 0
+      border-top-width: 0
+  tbody
+    th, td
+      border-left-width: 0
+      border-bottom-width: 0
+  tfoot
+    th, td
+      border-left-width: 0
+      border-bottom-width: 0
+  th:last-child, td:last-child
+    border-right-width: 0
+
+div.dataTables_scrollHead table.table-bordered
+  border-bottom-width: 0
+
+.table.dataTable tbody tr.active
+  td, th
+    background-color: #08C
+    color: white
+  &:hover
+    td, th
+      background-color: #0075b0 !important
+  th > a, td > a
+    color: white
+
+.table-striped.dataTable tbody tr.active:nth-child(odd)
+  td, th
+    background-color: #017ebc
+
+table.DTTT_selectable tbody tr
+  cursor: pointer
+
+div.DTTT .btn:hover
+  text-decoration: none !important
+
+ul.DTTT_dropdown.dropdown-menu
+  z-index: 2003
+  a
+    color: #333 !important
+  li
+    position: relative
+    &:hover a
+      background-color: #0088cc
+      color: white !important
+
+div
+  &.DTTT_collection_background
+    z-index: 2002
+  &.DTTT_print_info
+    position: fixed
+    top: 50%
+    left: 50%
+    width: 400px
+    height: 150px
+    margin-left: -200px
+    margin-top: -75px
+    text-align: center
+    color: #333
+    padding: 10px 30px
+    opacity: 0.95
+    background-color: white
+    border: 1px solid rgba(0, 0, 0, 0.2)
+    border-radius: 6px
+    -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.5)
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.5)
+    h6
+      font-weight: normal
+      font-size: 28px
+      line-height: 28px
+      margin: 1em
+    p
+      font-size: 14px
+      line-height: 20px
+  &.dataTables_processing
+    position: absolute
+    top: 50%
+    left: 50%
+    width: 100%
+    height: 60px
+    margin-left: -50%
+    margin-top: -25px
+    padding-top: 20px
+    padding-bottom: 20px
+    text-align: center
+    font-size: 1.2em
+    background-color: white
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(25%, rgba(255, 255, 255, 0.9)), color-stop(75%, rgba(255, 255, 255, 0.9)), color-stop(100%, rgba(255, 255, 255, 0)))
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 25%, rgba(255, 255, 255, 0.9) 75%, rgba(255, 255, 255, 0) 100%)
+    background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 25%, rgba(255, 255, 255, 0.9) 75%, rgba(255, 255, 255, 0) 100%)
+    background: -ms-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 25%, rgba(255, 255, 255, 0.9) 75%, rgba(255, 255, 255, 0) 100%)
+    background: -o-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 25%, rgba(255, 255, 255, 0.9) 75%, rgba(255, 255, 255, 0) 100%)
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 25%, rgba(255, 255, 255, 0.9) 75%, rgba(255, 255, 255, 0) 100%)
+  &.DTFC_LeftHeadWrapper table, &.DTFC_LeftFootWrapper table, &.DTFC_RightHeadWrapper table, &.DTFC_RightFootWrapper table
+    background-color: white
+    margin-bottom: 0
+
+table.DTFC_Cloned tr.even
+  background-color: white
+  margin-bottom: 0
+
+div
+  &.DTFC_RightHeadWrapper table, &.DTFC_LeftHeadWrapper table
+    border-bottom: none !important
+    margin-bottom: 0 !important
+    border-top-right-radius: 0 !important
+    border-bottom-left-radius: 0 !important
+    border-bottom-right-radius: 0 !important
+  &.DTFC_RightHeadWrapper table thead tr:last-child
+    th:first-child, td:first-child
+      border-bottom-left-radius: 0 !important
+      border-bottom-right-radius: 0 !important
+  &.DTFC_LeftHeadWrapper table thead tr:last-child
+    th:first-child, td:first-child
+      border-bottom-left-radius: 0 !important
+      border-bottom-right-radius: 0 !important
+  &.DTFC_RightBodyWrapper table, &.DTFC_LeftBodyWrapper table
+    border-top: none
+    margin: 0 !important
+  &.DTFC_RightBodyWrapper tbody tr:first-child
+    th, td
+      border-top: none
+  &.DTFC_LeftBodyWrapper tbody tr:first-child
+    th, td
+      border-top: none
+  &.DTFC_RightFootWrapper table, &.DTFC_LeftFootWrapper table
+    border-top: none
+    margin-top: 0 !important
+  &.DTFC_LeftBodyWrapper table.dataTable thead
+    .sorting:after, .sorting_asc:after, .sorting_desc:after
+      display: none
+  &.DTFC_RightBodyWrapper table.dataTable thead
+    .sorting:after, .sorting_asc:after, .sorting_desc:after
+      display: none
+  &.FixedHeader_Cloned table
+    margin: 0 !important

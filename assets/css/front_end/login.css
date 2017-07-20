@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+
+.login .box-login, .login .box-forgot, .login .box-register {
+	background: #FFFFFF;
+	border-radius: 5px;
+	box-shadow: -30px 30px 50px rgba(0, 0, 0, 0.32);
+	overflow: hidden;
+	padding: 15px;
+}
+.login .box-forgot, .login .box-register {
+	display: none;
+}
+.login .form fieldset {
+	border: none;
+	margin: 0;
+	padding: 10px 0 0;
+}
+.login a.forgot {
+    color: #909090;
+    font-size: 12px;
+    position: absolute;
+    right: 37px !important;
+    text-shadow: 1px 1px 1px #ffffff;
+    top: 162px !important;
+}
+.login input.password {
+	padding-right: 130px;
+}
+.login label {
+	color: #7F7F7F;
+	font-size: 14px;
+	margin-top: 5px;
+}
+.login .main-login {
+	margin-top: 60px;
+}
+.login .logo {
+	padding: 20px;
+	text-align: center;
+}
+.login .box-login, .login .box-forgot, .login .box-register {
+	background: #FFFFFF;
+	border-radius: 5px;
+	box-shadow: -30px 30px 50px rgba(0, 0, 0, 0.32);
+	overflow: hidden;
+	padding: 15px;
+}
+.login .box-forgot, .login .box-register {
+	display: none;
+}
+.login .form fieldset {
+	border: none;
+	margin: 0;
+	padding: 10px 0 0;
+}
+.login a.forgot {
+	color: #909090;
+	font-size: 12px;
+	position: absolute;
+	right: 10px;
+	text-shadow: 1px 1px 1px #FFFFFF;
+	top: 9px;
+}
+.login input.password {
+	padding-right: 130px;
+}
+.login label {
+	color: #a94442;
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+.login .copyright {
+	font-size: 11px;
+	margin: 0 auto;
+	padding: 10px 10px 0;
+	text-align: center;
+}
+.login .form-actions:before, .login .form-actions:after {
+	content: "";
+	display: table;
+	line-height: 0;
+}
+.login .form-actions:after {
+	clear: both;
+}
+.login .form-actions {
+	margin-top: 15px;
+	padding-top: 10px;
+	display: block;
+}
+.login .new-account {
+	border-top: 1px dotted #EEEEEE;
+	margin-top: 15px;
+	padding-top: 10px;
+	display: block;
+}
+.fa-user::before{
+	margin-top: 3px;
+	padding: 0 5px 0 4px;
+	position: absolute;
+	top: 100px !important;
+}
+.fa-lock::before{
+	margin-top: 3px;
+    padding: 0 5px 0 4px;
+    position: absolute;
+    top: 177px !important;
+}

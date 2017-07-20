@@ -1,0 +1,12 @@
+table.DTFC_Cloned
+  thead, tfoot
+    background-color: white
+
+div
+  &.DTFC_Blocker
+    background-color: white
+  &.DTFC_LeftWrapper table.dataTable, &.DTFC_RightWrapper table.dataTable
+    margin-bottom: 0
+    z-index: 2
+  &.DTFC_LeftWrapper table.dataTable.no-footer, &.DTFC_RightWrapper table.dataTable.no-footer
+    border-bottom: none

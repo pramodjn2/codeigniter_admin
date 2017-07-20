@@ -1,0 +1,169 @@
+/* GitHub Theme */
+.prettyprint {
+  background: #fff;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 12px;
+  line-height: 1.5;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.pln {
+  color: #333333;
+}
+
+@media screen {
+  .str {
+    color: #df5000;
+  }
+
+  .kwd {
+    color: #333333;
+    font-weight: bold;
+  }
+
+  .com {
+    color: #999988;
+  }
+
+  .typ {
+    color: #0086B3;
+  }
+
+  .lit {
+    color: #945277;
+  }
+
+  .pun {
+    color: #333333;
+  }
+
+  .opn {
+    color: #333333;
+  }
+
+  .clo {
+    color: #333333;
+  }
+
+  .tag {
+    color: #000080;
+  }
+
+  .atn {
+    color: #008080;
+  }
+
+  .atv {
+    color: #df5000;
+  }
+
+  .dec {
+    color: #999999;
+    font-weight: bold;
+  }
+
+  .var {
+    color: #008080;
+  }
+
+  .fun {
+    color: #990000;
+  }
+}
+@media print, projection {
+  .str {
+    color: #006600;
+  }
+
+  .kwd {
+    color: #006;
+    font-weight: bold;
+  }
+
+  .com {
+    color: #600;
+    font-style: italic;
+  }
+
+  .typ {
+    color: #404;
+    font-weight: bold;
+  }
+
+  .lit {
+    color: #004444;
+  }
+
+  .pun, .opn, .clo {
+    color: #444400;
+  }
+
+  .tag {
+    color: #006;
+    font-weight: bold;
+  }
+
+  .atn {
+    color: #440044;
+  }
+
+  .atv {
+    color: #006600;
+  }
+}
+/* Specify class=linenums on a pre to get line numbering */
+ol.linenums {
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  counter-reset: linenums;
+}
+
+/* Custom line numbering using counter */
+li.L0:before,
+li.L1:before,
+li.L2:before,
+li.L3:before,
+li.L4:before,
+li.L5:before,
+li.L6:before,
+li.L7:before,
+li.L8:before,
+li.L9:before {
+  color: rgba(0,0,0,0.3);
+  display: inline-block;
+  min-width: 13px;
+  padding-left: 10px;
+  padding-right: 20px;
+  content: counter(linenums);
+  counter-increment: linenums;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+/* IE indents via margin-left */
+li.L0,
+li.L1,
+li.L2,
+li.L3,
+li.L4,
+li.L5,
+li.L6,
+li.L7,
+li.L8,
+li.L9 {
+  /* */
+}
+
+/* Alternate shading for lines */
+li.L1,
+li.L3,
+li.L5,
+li.L7,
+li.L9 {
+  /* */
+}

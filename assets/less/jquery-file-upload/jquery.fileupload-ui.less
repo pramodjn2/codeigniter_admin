@@ -1,0 +1,83 @@
+
+@charset "UTF-8";
+.fileupload-buttonbar {
+	.btn {
+		margin-bottom: 5px;
+	}
+	.toggle {
+		margin-bottom: 5px;
+	}
+}
+.progress-animated {
+	.progress-bar {
+		background: url("../img/progressbar.gif") !important;
+		filter: none;
+	}
+	.bar {
+		background: url("../img/progressbar.gif") !important;
+		filter: none;
+	}
+}
+.fileupload-process {
+	float: right;
+	display: none;
+}
+.fileupload-processing {
+	.fileupload-process {
+		display: block;
+		width: 32px;
+		height: 32px;
+		background: url("../img/loading.gif") center no-repeat;
+		background-size: contain;
+	}
+}
+.files {
+	.processing {
+		.preview {
+			display: block;
+			width: 32px;
+			height: 32px;
+			background: url("../img/loading.gif") center no-repeat;
+			background-size: contain;
+		}
+	}
+	audio {
+		max-width: 300px;
+	}
+	video {
+		max-width: 300px;
+	}
+}
+@media (max-width: 767px) {
+	.fileupload-buttonbar {
+		.toggle {
+			display: none;
+		}
+	}
+	.files {
+		.toggle {
+			display: none;
+		}
+		.btn {
+			span {
+				display: none;
+			}
+		}
+		.name {
+			width: 80px;
+			word-wrap: break-word;
+		}
+		audio {
+			max-width: 80px;
+		}
+		video {
+			max-width: 80px;
+		}
+		img {
+			max-width: 100%;
+		}
+		canvas {
+			max-width: 100%;
+		}
+	}
+}

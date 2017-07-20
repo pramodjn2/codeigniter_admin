@@ -1,0 +1,374 @@
+/*
+ * Custom css for ng-laravel
+ */
+.capitalize {
+  text-transform: capitalize; }
+
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+  vertical-align: middle; }
+
+#container {
+  background-image: none; }
+
+.btn.btn-link {
+  box-shadow: none;
+  color: rgba(0, 0, 0, 0.54);
+  padding: 6px 7px; }
+  .btn.btn-link:hover {
+    outline: none; }
+
+.hiddenperpage {
+  display: none; }
+
+.hiddensearch {
+  display: none; }
+
+div.material-table .hiddensearch {
+  padding: 0 14px 0 24px;
+  border-bottom: solid 1px #DDDDDD;
+  display: none; }
+
+div.material-table .hiddensearch input {
+  margin: 0;
+  border: transparent 0 !important;
+  height: 48px;
+  color: rgba(0, 0, 0, 0.84); }
+
+.yep-card {
+  min-height: 600px; }
+  .yep-card .card-head {
+    border-bottom: none; }
+    .yep-card .card-head .head-title {
+      font-size: 18px; }
+  .yep-card .search-tr {
+    display: table-row; }
+    .yep-card .search-tr td {
+      padding: 0; }
+
+.panel-flat > .panel-flat-comment {
+  border-top: 0;
+  padding: 0; }
+
+.margin-right-33 {
+  margin-right: 33.333%; }
+
+.display-flex {
+  display: inline-flex; }
+
+.padding-top-15 {
+  padding-top: 15px; }
+
+.padding-top-20 {
+  padding-top: 20px; }
+
+.margin-top-20 {
+  margin-top: -20px; }
+
+.bg-white-height-700 {
+  min-height: 700px;
+  background-color: #FFFFFF; }
+
+.vertical-top {
+  vertical-align: top; }
+
+fieldset {
+  min-width: 100%;
+  margin: auto; }
+
+.gallery-fancy img {
+  filter: gray;
+  /* IE6-9 */
+  -webkit-filter: grayscale(1);
+  /* Google Chrome, Safari 6+ & Opera 15+ */
+  -webkit-box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.75);
+  margin-bottom: 20px; }
+.gallery-fancy img:hover {
+  filter: none;
+  /* IE6-9 */
+  -webkit-filter: grayscale(0);
+  /* Google Chrome, Safari 6+ & Opera 15+ */ }
+
+.main {
+  min-height: 1100px; }
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important; }
+
+.translate-cloak {
+  display: none !important; }
+
+/*
+ * Preloader
+ */
+.preloader {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 1000;
+  height: 100%; }
+  .preloader span {
+    position: fixed;
+    font-weight: bold;
+    left: 50%;
+    border: 1px solid #f0c36d;
+    background-color: #f9edbe;
+    padding: 0 10px;
+    -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); }
+
+/*
+ * Angular Drag & Drop
+ */
+.dnd-list .content {
+  border: 2px dashed #0087F7;
+  border-radius: 5px;
+  background: white; }
+.dnd-list .box {
+  border: 2px dashed #0087F7;
+  border-radius: 5px;
+  background: white;
+  margin-bottom: 20px; }
+.dnd-list .box > h3 {
+  color: #333;
+  border-color: #ddd;
+  border-bottom: 1px solid transparent;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  background-repeat: repeat-x;
+  display: block;
+  font-size: 16px;
+  padding: 10px 15px;
+  margin-top: 0;
+  margin-bottom: 0; }
+.dnd-list .box-padding {
+  padding: 15px; }
+.dnd-list .box-padding > h3 {
+  margin: -15px;
+  margin-bottom: 15px; }
+.dnd-list .box-grey {
+  border-color: #ddd; }
+.dnd-list .box-grey > h3 {
+  background-color: #f5f5f5;
+  background-image: -webkit-linear-gradient(top, #f5f5f5 0, #e8e8e8 100%);
+  background-image: linear-gradient(to bottom, #f5f5f5 0, #e8e8e8 100%); }
+.dnd-list .box-blue {
+  border-color: #bce8f1; }
+.dnd-list .box-blue > h3 {
+  color: #31708f;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+  background-image: -webkit-linear-gradient(top, #d9edf7 0, #c4e3f3 100%);
+  background-image: linear-gradient(to bottom, #d9edf7 0, #c4e3f3 100%); }
+.dnd-list .box-yellow {
+  border-color: #faebcc; }
+.dnd-list .box-yellow > h3 {
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+  background-image: -webkit-linear-gradient(top, #fcf8e3 0, #faf2cc 100%);
+  background-image: linear-gradient(to bottom, #fcf8e3 0, #faf2cc 100%); }
+
+/***************************** Required styles *****************************/
+/**
+ * For the correct positioning of the placeholder element, the dnd-list and
+ * it's children must have position: relative
+ */
+.dnd-list ul[dnd-list],
+.dnd-list ul[dnd-list] > li {
+  position: relative; }
+
+/***************************** Dropzone Styling *****************************/
+/**
+ * The dnd-list should always have a min-height,
+ * otherwise you can't drop to it once it's empty
+ */
+.dnd-list .dropzone div[dnd-list] {
+  min-height: 42px;
+  margin: 0px;
+  padding-left: 0px; }
+
+/**
+ * The dnd-lists's child elements currently MUST have
+ * position: relative. Otherwise we can not determine
+ * whether the mouse pointer is in the upper or lower
+ * half of the element we are dragging over. In other
+ * browsers we can use event.offsetY for this.
+ */
+.dnd-list .dropzone li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  display: block;
+  padding: 0px; }
+
+/**
+ * Reduce opacity of elements during the drag operation. This allows the user
+ * to see where he is dropping his element, even if the element is huge. The
+ * .dndDragging class is automatically set during the drag operation.
+ */
+.dnd-list .dropzone .dndDragging {
+  opacity: 0.7; }
+
+/**
+ * The dndDraggingSource class will be applied to the source element of a drag
+ * operation. It makes sense to hide it to give the user the feeling that he's
+ * actually moving it. Note that the source element has also .dndDragging class.
+ */
+.dnd-list .dropzone .dndDraggingSource {
+  display: none; }
+
+/**
+ * An element with .dndPlaceholder class will be added as child of the dnd-list
+ * while the user is dragging over it.
+ */
+.dnd-list .dropzone .dndPlaceholder {
+  background-color: #ddd;
+  min-height: 42px;
+  display: block;
+  position: relative; }
+
+/***************************** Element Selection *****************************/
+.dnd-list .dropzone .selected .item {
+  color: #3c763d;
+  background-color: #dff0d8; }
+
+.dnd-list .dropzone .selected .box {
+  border-color: #d6e9c6; }
+
+.dnd-list .dropzone .selected .box > h3 {
+  color: #3c763d;
+  background-color: #dff0d8;
+  background-image: linear-gradient(to bottom, #dff0d8 0, #d0e9c6 100%);
+  border-color: #d6e9c6; }
+
+/***************************** Element type specific styles *****************************/
+.dnd-list .dropzone .items {
+  padding: 10px 15px; }
+
+.dnd-list .dropzone .container-element {
+  margin: 10px; }
+
+.dnd-list .dropzone .container-element .column {
+  float: left;
+  width: 50%; }
+
+/***************************** Toolbox *****************************/
+.dnd-list .toolbox ul {
+  list-style: none;
+  padding-left: 0px;
+  cursor: move; }
+
+.dnd-list .toolbox button {
+  margin: 5px;
+  width: 123px;
+  opacity: 1.0; }
+
+.dnd-list .toolbox .dndDragging {
+  opacity: 0.5; }
+
+.dnd-list .toolbox .dndDraggingSource {
+  opacity: 1.0; }
+
+/***************************** Trashcan *****************************/
+.dnd-list .trashcan ul {
+  list-style: none;
+  padding-left: 0px; }
+
+.dnd-list .trashcan img {
+  width: 100%;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%); }
+
+.dnd-list .trashcan .dndDragover img {
+  width: 100%;
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none; }
+
+.dnd-list .trashcan .dndPlaceholder {
+  display: none; }
+
+/*
+ * List Responsive table
+ */
+.yep-list ul:nth-child(odd) {
+  background-color: #F9F9F9; }
+
+.yep-list ul:nth-child(even) {
+  background-color: #fff; }
+
+.yep-list .form-control {
+  padding: 6px 6px;
+  display: inline-block; }
+
+/* big */
+@media screen and (min-width: 600px) {
+  .yep-list {
+    display: table;
+    width: 100%; }
+
+  .yep-list ul {
+    display: table-row; }
+
+  .yep-list ul:first-child li {
+    background-color: #444;
+    color: #fff; }
+
+  .yep-list ul > li {
+    display: table-cell;
+    padding: .5em .3em;
+    vertical-align: top; } }
+/* small */
+@media screen and (max-width: 599px) {
+  .yep-list ul {
+    border: solid 1px #ccc;
+    display: block;
+    list-style: none;
+    margin: 1em;
+    padding: .5em 1em; }
+
+  .yep-list ul:first-child {
+    display: none; }
+
+  .yep-list ul > li {
+    display: block;
+    padding: .25em 0; }
+
+  .yep-list ul:nth-child(odd) > li + li {
+    border-top: solid 1px #ccc; }
+
+  .yep-list ul:nth-child(even) > li + li {
+    border-top: solid 1px #eee; }
+
+  .yep-list ul > li:before {
+    color: #000;
+    content: attr(data-label);
+    display: inline-block;
+    font-size: 75%;
+    font-weight: bold;
+    text-transform: capitalize;
+    vertical-align: top;
+    width: 50%; }
+
+  .yep-list p {
+    margin: -1em 0 0 50%; } }
+/* tiny */
+@media screen and (max-width: 349px) {
+  .yep-list ul > li:before {
+    display: block; }
+
+  .yep-list p {
+    margin: 0; } }
+/**
+ * angular css
+ */
+[ng-click] {
+  cursor: pointer; }
+
+[ui-sref] {
+  cursor: pointer; }
+
+/*# sourceMappingURL=yep-custom.css.map */

@@ -1,0 +1,36 @@
+@color_1: #fff;
+@color_2: orange;
+@color_3: lightblue;
+@color_4: #333;
+@font-family_1: "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+
+@charset "UTF-8";
+/*
+ * Bootstrap Image Gallery Demo CSS 3.0.0
+ * https://github.com/blueimp/Bootstrap-Image-Gallery
+ *
+ * Copyright 2013, Sebastian Tschan
+ * https://blueimp.net
+ *
+ * Licensed under the MIT license:
+ * http://www.opensource.org/licenses/MIT
+ */
+body {
+	padding-top: 60px;
+	background: #222;
+	color: @color_1;
+}
+h1 {
+	font-family: @font-family_1;
+}
+a {
+	color: @color_2;
+	&:hover {
+		color: @color_3;
+		text-decoration: none;
+	}
+}
+.modal {
+	overflow: auto;
+	color: @color_4;
+}
